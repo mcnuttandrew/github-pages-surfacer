@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Github Pages Surfacers",
+  "version": "1.0",
+  "description": "Adds a link to a github pages if one is detected.",
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://github.com/*"
+      ]
+    }
+  ]
+}
